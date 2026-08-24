@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* palette families */
+  --color-baltic-blue: #22577a;
+  --color-tropical-teal: #38a3a5;
+  --color-emerald: #57cc99;
+  --color-light-green: #80ed99;
+  --color-tea-green: #c7f9cc;
+
+  /* semantic tokens */
+  --background: #071219;
+  --background-deep: #050b10;
+  --background-secondary: #0e2331;
+  --surface: #0e2331;
+  --surface-hover: #15354a;
+  --text-primary: #f4fef5;
+  --text-secondary: #91c1e0;
+  --text-muted: rgba(145, 193, 224, 0.65);
+  --accent: #57cc99;
+  --accent-secondary: #38a3a5;
+  --highlight: #80ed99;
+  --border-subtle: rgba(145, 193, 224, 0.08);
+  --border-subtle-soft: rgba(145, 193, 224, 0.06);
+  --glow-emerald: rgba(87, 204, 153, 0.18);
+  --glow-teal: rgba(56, 163, 165, 0.16);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--background-deep);
+}
+
+section[id] {
+  scroll-margin-top: 104px;
+}
+
+@media (max-width: 767px) {
+  section[id] {
+    scroll-margin-top: 96px;
+  }
+}
+
+@layer components {
+  .glass {
+    background: rgba(14, 35, 49, 0.3);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border-subtle);
+  }
+
+  .flow-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-mono), monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 20px;
+  }
+  .flow-tag::before {
+    content: "";
+    width: 16px;
+    height: 1px;
+    background: var(--accent);
+    display: inline-block;
+  }
+
+  /* extremely subtle fading divider — used sparingly instead of hard borders */
+  .fade-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(56, 163, 165, 0.16), transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
