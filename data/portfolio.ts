@@ -1,10 +1,10 @@
 export const site = {
-  name: "Kanchana Sandeepa",
-  title: "Kanchana Sandeepa — Business Information Systems",
+  name: "Kanchana Witharana",
+  title: "Kanchana Witharana — Business Information Systems",
   description:
-    "Kanchana Sandeepa — Business Information Systems undergraduate. Business analysis, UI/UX design, and ICT-driven systems.",
+    "Kanchana Witharana — Business Information Systems undergraduate. Business analysis, UI/UX design, and ICT-driven systems.",
   location: "Colombo, Sri Lanka",
-  url: "https://kanchanasandeepa.dev",
+  url: "https://kanchanawitharana.vercel.app",
 };
 
 export const nav = [
@@ -25,7 +25,7 @@ export const resume = {
 export const hero = {
   eyebrow: "External Entity — Source",
   firstName: "Kanchana",
-  lastName: "Sandeepa",
+  lastName: "Witharana",
   lead: "I turn business processes into working systems — gathering requirements, designing the interface, and building the logic that connects them. Currently studying Business Information Systems in Colombo, Sri Lanka.",
   ctas: {
     primary: { label: "View Projects →", target: "projects" },
