@@ -1,30 +1,8 @@
 import type { Metadata } from "next";
-import { Syne, Plus_Jakarta_Sans, JetBrains_Mono, Outfit } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const syne = Syne({
-  subsets: ["latin"],
-  variable: "--font-syne",
-  display: "swap",
-});
-
-const plusJakarta = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  variable: "--font-jakarta",
-  display: "swap",
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  subsets: ["latin"],
-  variable: "--font-mono",
-  display: "swap",
-});
-
-const outfit = Outfit({
-  subsets: ["latin"],
-  variable: "--font-outfit",
-  display: "swap",
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Kanchana Witharana | Business Analyst & UI/UX Designer",
@@ -55,7 +33,7 @@ export const metadata: Metadata = {
     description:
       "Official portfolio of Kanchana Witharana, showcasing enterprise systems, UI/UX designs, and software engineering projects.",
   },
-  // Google Search Console verification meta tag
+  // Google Search Console verification tag
   verification: {
     google: "googlee397342057b9ed0b",
   },
@@ -67,11 +45,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${syne.variable} ${plusJakarta.variable} ${jetbrainsMono.variable} ${outfit.variable}`}
-    >
-      <body class="relative bg-ink font-body text-text antialiased">
+    <html lang="en">
+      <body className={`${inter.className} relative bg-ink font-body text-text antialiased`}>
         {children}
       </body>
     </html>
