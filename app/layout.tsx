@@ -1,8 +1,16 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Syne, Outfit } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const syne = Syne({
+  subsets: ["latin"],
+  variable: "--font-syne",
+});
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  variable: "--font-outfit",
+});
 
 export const metadata: Metadata = {
   title: "Kanchana Witharana | Business Analyst & UI/UX Designer",
@@ -33,7 +41,7 @@ export const metadata: Metadata = {
     description:
       "Official portfolio of Kanchana Witharana, showcasing enterprise systems, UI/UX designs, and software engineering projects.",
   },
-  // Google Search Console verification meta tag
+  // Google Search Console verification meta tag kept active!
   verification: {
     google: "jeD8uLH-wueees885GiTbCcjnNvdHZ_coCoCBGuyXP8",
   },
@@ -45,8 +53,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} relative bg-ink font-body text-text antialiased`}>
+    <html lang="en" className={`${syne.variable} ${outfit.variable}`}>
+      <body className="relative bg-ink font-body text-text antialiased">
         {children}
       </body>
     </html>
