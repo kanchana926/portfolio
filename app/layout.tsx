@@ -33,9 +33,9 @@ export const metadata: Metadata = {
     description:
       "Official portfolio of Kanchana Witharana, showcasing enterprise systems, UI/UX designs, and software engineering projects.",
   },
-  // Google Search Console verification tag
+  // Google Search Console verification meta tag
   verification: {
-    google: "googlee397342057b9ed0b",
+    google: "jeD8uLH-wueees885GiTbCcjnNvdHZ_coCoCBGuyXP8",
   },
 };
 
