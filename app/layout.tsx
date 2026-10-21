@@ -39,23 +39,25 @@ const mono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: site.title,
-  description: site.description,
-  authors: [{ name: site.name }],
+  title: "Kanchana Witharana | Business Analyst & UI/UX Designer",
+  description: "Official portfolio of Kanchana Witharana, showcasing enterprise systems, UI/UX designs, and software engineering projects.",
+  authors: [{ name: "Kanchana Witharana" }],
+  creator: "Kanchana Witharana",
+  publisher: "Kanchana Witharana",
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: site.title,
-    description: site.description,
+    title: "Kanchana Witharana | Business Analyst & UI/UX Designer",
+    description: "Official portfolio of Kanchana Witharana, showcasing enterprise systems, UI/UX designs, and software engineering projects.",
     url: site.url,
-    siteName: site.name,
+    siteName: "Kanchana Witharana Portfolio",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: site.title,
-    description: site.description,
+    title: "Kanchana Witharana | Business Analyst & UI/UX Designer",
+    description: "Official portfolio of Kanchana Witharana, showcasing enterprise systems, UI/UX designs, and software engineering projects.",
   },
 };
 
