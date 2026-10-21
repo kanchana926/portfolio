@@ -34,7 +34,7 @@ export const hero = {
   stats: [
     { value: "3", label: "MAJOR PROJECTS" },
     { value: "6", label: "CERTIFICATIONS" },
-    { value: "2027", label: "EXPECTED GRADUATION" },
+    { value: "2028", label: "EXPECTED GRADUATION" },
   ],
 };
 
@@ -77,7 +77,7 @@ export const about = {
   stats: [
     { value: "3", label: "Major Projects" },
     { value: "6", label: "Certifications" },
-    { value: "2027", label: "Grad Year" },
+    { value: "2028", label: "Grad Year" },
   ],
   paragraphs: [
     "I'm a Business Information Systems undergraduate skilled in analyzing business processes, gathering requirements, and delivering ICT-driven solutions. My academic work runs across Power BI dashboards, Microsoft Access systems, and Python applications built to optimize real workflows.",
@@ -88,7 +88,7 @@ export const about = {
     { label: "Location", value: "Colombo, Sri Lanka" },
     { label: "Degree", value: "BSc (Hons) Business Information Systems" },
     { label: "University", value: "University of Sri Jayewardenepura" },
-    { label: "Grad", value: "Expected 2027" },
+    { label: "Grad", value: "Expected 2028" },
     { label: "Focus", value: "Business Analysis · UI/UX · Systems" },
     { label: "Role", value: "Executive Board Member, Dept. of IT" },
   ],
