@@ -161,10 +161,12 @@ export const skills = [
 export type Project = {
   slug: string;
   title: string;
+  address?: string;
   tags: string[];
   description: string;
   stack: string[];
-  github: string;
+  github?: string;
+  figma?: string;
   image: string;
   imageAlt: string;
 };
@@ -177,7 +179,7 @@ export const projects: Project[] = [
     description:
       "A student-centered exam preparation platform designed to help A/L students understand where and why they lose marks. Features question-based practice, mark breakdowns, step-by-step explanations, weakness detection, and subject-wise performance tracking.",
     stack: ["User Research", "Design Thinking", "Figma Prototyping"],
-    github: "",
+    figma: "https://www.figma.com/proto/9XfmrBFRLxVZYSr1DVfLuJ/MarkLens?node-id=11-2&p=f&t=1fctqgJkx4XFWf7q-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=11%3A2",
     image: "/projects/Marklens.jpg",
     imageAlt: "MarkLens exam performance dashboard displayed on laptop and smartphone",
   },
