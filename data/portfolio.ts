@@ -255,6 +255,6 @@ export const resumeCta = {
 };
 
 export const footer = {
-  name: "KANCHANA SANDEEPA",
+  name: "KANCHANA WITHARANA",
   location: "COLOMBO, SRI LANKA",
 };
