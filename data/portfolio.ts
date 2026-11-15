@@ -161,7 +161,6 @@ export const skills = [
 export type Project = {
   slug: string;
   title: string;
-  address: string;
   tags: string[];
   description: string;
   stack: string[];
@@ -174,7 +173,6 @@ export const projects: Project[] = [
 {
     slug: "marklens",
     title: "MarkLens — Exam Performance Improvement System",
-    address: "https://www.figma.com/proto/9XfmrBFRLxVZYSr1DVfLuJ/MarkLens?node-id=11-2&p=f&t=1fctqgJkx4XFWf7q-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=11%3A2",
     tags: ["UI/UX Design", "Figma", "Group Project"],
     description:
       "A student-centered exam preparation platform designed to help A/L students understand where and why they lose marks. Features question-based practice, mark breakdowns, step-by-step explanations, weakness detection, and subject-wise performance tracking.",
@@ -186,7 +184,6 @@ export const projects: Project[] = [
   {
     slug: "eternal-bliss-planners",
     title: "Eternal Bliss Planners",
-    address: "eternalbliss.events / hotels",
     tags: ["UI/UX", "HTML/CSS","Group Project"],
     description:
       "An interactive wedding planning platform built around elegant, user-centered design. Couples and vendors manage events, bookings, and coordination in one place — designed for a smooth, personalized planning experience from first idea to the big day.",
@@ -198,7 +195,6 @@ export const projects: Project[] = [
   {
     slug: "ridepulse",
     title: "RidePulse — AI-Powered Public Transport System",
-    address: "ridepulse-e28ba.web.app / login",
     tags: ["AI / ML","Jira", "Group Project"],
     description:
       "A data-driven transport platform tackling revenue leakage and overcrowding. Real-time GPS tracking and digital ticketing feed LSTM-based models that forecast passenger demand — giving transit operators predictive, transparent decision-making instead of guesswork.",
@@ -210,7 +206,6 @@ export const projects: Project[] = [
   {
     slug: "fur-baby-records",
     title: "Fur Baby Records",
-    address: "furbaby.records / app",
     tags: ["Python", "Individual Project"],
     description:
       "A management system integrating ICT into everyday pet-care operations. Built in Python to streamline record-keeping and day-to-day workflows for a small pet-care business.",
