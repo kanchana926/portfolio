@@ -150,6 +150,11 @@ export const skills = [
     description: "How the work gets scoped and shipped.",
     tools: ["Agile", "Requirements Gathering", "Data Analysis", "System Design", "Problem-Solving"],
   },
+    {
+    title: "ERP Systems & Consulting",
+    description: "Enterprise resource planning and core business operations.",
+    tools: ["SAP S/4HANA", "ERP Consultant", "Business Process Integration"],
+  },
 ];
 
 export type Project = {
