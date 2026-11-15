@@ -119,9 +119,9 @@ export const education = {
 };
 
 export const certificates = [
-  { title: "C# Programming", issuer: "W3Schools", year: "2024" },
-  { title: "SQL Fundamentals", issuer: "W3Schools", year: "2025" },
-  { title: "HTML & Web Development", issuer: "W3Schools", year: "2025" },
+  { title: " User Experience Design Fundamentals", issuer: "IBM Skillbuild", year: "2026" },
+  { title: "Agile Explorer", issuer: "IBM Skillbuild", year: "2026" },
+  { title: "Project Management Fundamentals", issuer: "IBM Skillbuild", year: "2026" },
   { title: "Data Analytics Essentials", issuer: "Cisco Networking Academy", year: "2026" },
   { title: "Cybersecurity Fundamentals", issuer: "APNIC Academy", year: "2026" },
   { title: "Internet of Things", issuer: "Cisco Networking Academy", year: "2026" },
