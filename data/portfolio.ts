@@ -56,6 +56,7 @@ export const tickerItems = [
   "UI/UX Design",
   "Agile",
   "System Design",
+  "SAP S/4HANA",
 ];
 
 export const socialLinks = {
@@ -80,8 +81,8 @@ export const about = {
     { value: "2028", label: "Grad Year" },
   ],
   paragraphs: [
-    "I'm a Business Information Systems undergraduate skilled in analyzing business processes, gathering requirements, and delivering ICT-driven solutions. My academic work runs across Power BI dashboards, Microsoft Access systems, and Python applications built to optimize real workflows.",
-    "My four-year honors degree pairs management thinking with hands-on ICT — business analysis, system development, and project management on one side, and UI/UX design, user research, wireframing, and prototyping on the other. I'm currently looking for an internship to apply that mix of analytical, technical, and problem-solving skill in a real-world business environment.",
+    "I'm a Business Information Systems undergraduate skilled in analyzing business processes, gathering requirements, and delivering ICT-driven solutions. My academic work spans SAP S/4HANA, Power BI dashboards, Microsoft Access systems, and Python applications built to optimize real workflows.",
+    "My four-year honors degree pairs management thinking with hands-on ICT. On the technical and operational side, my background covers business analysis, ERP consulting, system development, and project management. On the creative side, I specialize in UI/UX design, user research, wireframing, and prototyping. I am currently looking for an internship where I can apply this mix of analytical, technical, and problem-solving skills in a real-world business environment.",
     "Outside coursework, I design graphics for my department's Student Association and work as a videographer and editor for Dhamsathara TV in Rathnapura — two crafts that keep my eye for interfaces sharp.",
   ],
   quickFacts: [
