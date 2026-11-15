@@ -30,12 +30,14 @@ export default function ProjectCard({
               <span className="h-[9px] w-[9px] rounded-full opacity-85" style={{ background: "#57cc99" }} />
               <span className="h-[9px] w-[9px] rounded-full" style={{ background: "#38a3a5" }} />
             </div>
-            <div
-              className="mx-auto max-w-[280px] flex-1 rounded-md border px-3.5 py-[5px] text-center font-mono text-[11px] text-muted"
-              style={{ background: "rgba(5,11,16,0.6)", borderColor: "rgba(145,193,224,0.08)" }}
-            >
-              {project.address}
-            </div>
+            {project.address && (
+              <div
+                className="mx-auto max-w-[280px] flex-1 rounded-md border px-3.5 py-[5px] text-center font-mono text-[11px] text-muted"
+                style={{ background: "rgba(5,11,16,0.6)", borderColor: "rgba(145,193,224,0.08)" }}
+              >
+                {project.address}
+              </div>
+            )}
           </div>
           <div className="relative aspect-[900/502] w-full overflow-hidden">
             <Image
@@ -84,14 +86,26 @@ export default function ProjectCard({
           </div>
 
           <div className="flex gap-4">
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 font-mono text-[13px] text-accent transition-colors hover:text-[#7dd1d3]"
-            >
-              ↗ View on GitHub
-            </a>
+            {project.figma && (
+              <a
+                href={project.figma}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 font-mono text-[13px] text-accent transition-colors hover:text-[#7dd1d3]"
+              >
+                ↗ View Figma Prototype
+              </a>
+            )}
+            {project.github && (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 font-mono text-[13px] text-accent transition-colors hover:text-[#7dd1d3]"
+              >
+                ↗ View on GitHub
+              </a>
+            )}
           </div>
         </div>
       </div>
