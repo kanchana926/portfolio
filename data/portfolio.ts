@@ -175,7 +175,7 @@ export const projects: Project[] = [
     slug: "eternal-bliss-planners",
     title: "Eternal Bliss Planners",
     address: "eternalbliss.events / hotels",
-    tags: ["UI/UX", "Group Project"],
+    tags: ["UI/UX", "HTML/CSS","Group Project"],
     description:
       "An interactive wedding planning platform built around elegant, user-centered design. Couples and vendors manage events, bookings, and coordination in one place — designed for a smooth, personalized planning experience from first idea to the big day.",
     stack: ["Figma", "Wireframing", "Prototyping"],
@@ -187,7 +187,7 @@ export const projects: Project[] = [
     slug: "ridepulse",
     title: "RidePulse — AI-Powered Public Transport System",
     address: "ridepulse-e28ba.web.app / login",
-    tags: ["AI / ML", "Group Project"],
+    tags: ["AI / ML","Jira", "Group Project"],
     description:
       "A data-driven transport platform tackling revenue leakage and overcrowding. Real-time GPS tracking and digital ticketing feed LSTM-based models that forecast passenger demand — giving transit operators predictive, transparent decision-making instead of guesswork.",
     stack: ["Real-time GPS", "LSTM Forecasting", "Digital Ticketing"],
