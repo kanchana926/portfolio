@@ -49,6 +49,7 @@ export const roles = [
 export const tickerItems = [
   "Business Analysis",
   "Power BI",
+  "Jira",
   "Microsoft Access",
   "Python",
   "C#",
@@ -148,7 +149,7 @@ export const skills = [
   {
     title: "Methodology & Core Competencies",
     description: "How the work gets scoped and shipped.",
-    tools: ["Agile", "Requirements Gathering", "Data Analysis", "System Design", "Problem-Solving"],
+    tools: ["Agile", "Jira", "Requirements Gathering", "Data Analysis", "System Design", "Problem-Solving"],
   },
     {
     title: "ERP Systems & Consulting",
