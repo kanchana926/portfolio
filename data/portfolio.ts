@@ -2,7 +2,7 @@ export const site = {
   name: "Kanchana Witharana",
   title: "Kanchana Witharana — Business Information Systems",
   description:
-    "Kanchana Witharana — Business Information Systems undergraduate. Business analysis, UI/UX design, and ICT-driven systems.",
+    "Kanchana Witharana — Business Information Systems undergraduate. Business analysis, UI/UX design, ERP consulting and ICT-driven systems.",
   location: "Colombo, Sri Lanka",
   url: "https://kanchanawitharana.vercel.app",
 };
@@ -43,6 +43,7 @@ export const roles = [
   "Aspiring Business Analyst",
   "UI/UX Designer",
   "Python & C# Developer",
+  "ERP consultant",
 ];
 
 export const tickerItems = [
