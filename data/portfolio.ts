@@ -267,6 +267,60 @@ export const leadership = [
   },
 ];
 
+export const softSkills = [
+  {
+    icon: "LEADERSHIP",
+    title: "Leadership & Team Management",
+    description: "Leading media teams and coordinating team activities.",
+  },
+  {
+    icon: "DESIGN",
+    title: "Creativity & Innovation",
+    description: "Developing creative ideas for graphic design, UI/UX, and visual content.",
+  },
+  {
+    icon: "COMMUNICATION",
+    title: "Communication & Collaboration",
+    description: "Working effectively with team members and coordinating with different stakeholders.",
+  },
+  {
+    icon: "ANALYSIS",
+    title: "Problem-Solving",
+    description: "Identifying challenges and developing practical solutions through academic and design projects.",
+  },
+  {
+    icon: "EXECUTION",
+    title: "Time Management",
+    description: "Managing academic responsibilities, projects, and extracurricular activities.",
+  },
+  {
+    icon: "COORDINATION",
+    title: "Event Coordination",
+    description: "Supporting and coordinating departmental events and competitions.",
+  },
+  {
+    icon: "PRECISION",
+    title: "Attention to Detail",
+    description:
+      "Ensuring accuracy, consistency, and high quality across system requirements, UI/UX prototypes, and visual deliverables.",
+  },
+  {
+    icon: "AGILITY",
+    title: "Adaptability",
+    description: "Adjusting to different responsibilities, project requirements, and team environments.",
+  },
+  {
+    icon: "ANALYSIS",
+    title: "Critical Thinking",
+    description: "Analyzing user needs and evaluating design solutions.",
+  },
+  {
+    icon: "LEADERSHIP",
+    title: "Decision Making",
+    description: "Making effective decisions when handling team responsibilities and project activities.",
+  },
+];
+
 export const contact = {
   flowTag: "Data Flow — Output",
   heading: "Let's build something.",
