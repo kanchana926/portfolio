@@ -229,6 +229,24 @@ export const projects: Project[] = [
 
 export const leadership = [
   {
+    icon: "MEDIA",
+    title: "Head of Media Crew",
+    description:
+      "Leading media coverage and visual production for the Student Association, Department of Information Technology.",
+  },
+  {
+    icon: "LEADERSHIP",
+    title: "Co-Chairperson — Sparsha",
+    description:
+      "Co-chairing and coordinating Sparsha, the Department Talent Show.",
+  },
+  {
+    icon: "DESIGN",
+    title: "Head of Media Crew — DHack",
+    description:
+      "Leading media and visual coverage for DHack: The Ultimate Designathon Challenge (UI/UX Competition).",
+  },
+  {
     icon: "DESIGN",
     title: "Graphic Designer",
     description:
@@ -237,12 +255,14 @@ export const leadership = [
   {
     icon: "MEDIA",
     title: "Videographer & Video Editor",
-    description: "Producing and editing visual content for Dhamsathara TV, Rathnapura Branch.",
+    description:
+      "Producing and editing visual content for Dhamsathara TV, Rathnapura Branch.",
   },
   {
     icon: "LEADERSHIP",
     title: "Executive Board Member",
-    description: "Serving on the Executive Board, Department of Information Technology.",
+    description:
+      "Serving on the Executive Board, Department of Information Technology.",
   },
 ];
 
