@@ -14,6 +14,7 @@ export const nav = [
   { label: "Skills", target: "skills" },
   { label: "Projects", target: "projects" },
   { label: "Leadership", target: "leadership" },
+  { label: "Soft Skills", target: "soft-skills" },
   { label: "Contact", target: "contact" },
 ] as const;
 
