@@ -117,7 +117,8 @@ export const education = {
         "Business analysis, system development, and project management",
         "UI/UX design — user research, wireframing, prototyping, and interface design",
       ],
-      {
+    }, // <-- Added this closing brace & comma
+    {
       period: "2023 (January)",
       title: "G.C.E. Advanced Level (A/L) — Commerce Stream",
       place: "Sivali Central College, Rathnapura",
