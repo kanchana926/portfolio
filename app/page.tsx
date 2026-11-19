@@ -5,6 +5,7 @@ import Education from "@/components/Education";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Leadership from "@/components/Leadership";
+import SoftSkills from "@/components/SoftSkills";
 import Contact from "@/components/Contact";
 import ResumeCTA from "@/components/ResumeCTA";
 import { site, socialLinks } from "@/data/portfolio";
@@ -38,6 +39,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Leadership />
+      <SoftSkills />
       <Contact />
       <ResumeCTA />
     </>
