@@ -79,7 +79,7 @@ export const about = {
     tag: "KANCHANA · COLOMBO",
   },
   stats: [
-    { value: "3", label: "Major Projects" },
+    { value: "4", label: "Major Projects" },
     { value: "6", label: "Certifications" },
     { value: "2028", label: "Grad Year" },
   ],
