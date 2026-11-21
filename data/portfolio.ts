@@ -93,7 +93,7 @@ export const about = {
     { label: "Degree", value: "BSc (Hons) Business Information Systems" },
     { label: "University", value: "University of Sri Jayewardenepura" },
     { label: "Grad", value: "Expected 2028" },
-    { label: "Focus", value: "Business Analysis · UI/UX · Systems" },
+    { label: "Focus", value: "Business Analysis · UI/UX Engineer · ERP Consultant" },
     { label: "Role", value: "Executive Board Member, Dept. of IT" },
   ],
   howIWork: [
