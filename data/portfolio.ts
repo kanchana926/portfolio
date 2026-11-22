@@ -34,7 +34,7 @@ export const hero = {
   },
   stats: [
     { value: "4", label: "MAJOR PROJECTS" },
-    { value: "7", label: "CERTIFICATIONS" },
+    { value: "8", label: "CERTIFICATIONS" },
     { value: "2028", label: "EXPECTED GRADUATION" },
   ],
 };
@@ -80,7 +80,7 @@ export const about = {
   },
   stats: [
     { value: "4", label: "Major Projects" },
-    { value: "7", label: "Certifications" },
+    { value: "8", label: "Certifications" },
     { value: "2028", label: "Grad Year" },
   ],
   paragraphs: [
@@ -134,6 +134,7 @@ export const education = {
 export const certificates = [
   { title: " User Experience Design Fundamentals", issuer: "IBM Skillbuild", year: "2026" },
   {title: "Introduction to Figma", issuer: "Simplilearn SkillUp", year: "2026"},
+  {title: "Introduction to Graphic Design; Basics of UI/UX", issuer: "Simplilearn SkillUp", year: "2026"},
   { title: "Agile Explorer", issuer: "IBM Skillbuild", year: "2026" },
   { title: "Project Management Fundamentals", issuer: "IBM Skillbuild", year: "2026" },
   { title: "Data Analytics Essentials", issuer: "Cisco Networking Academy", year: "2026" },
